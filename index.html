@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Andy Warhol | Pop Art</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVEGACIÓN SUPERIOR FIJA TIPO MOMA -->
+  <nav class="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <a href="#inicio" class="nav-logo">A. WARHOL</a>
+        <span class="nav-tagline">Pop Art Archive</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#biografia" class="nav-link">Biografía</a></li>
+        <li><a href="#obras" class="nav-link">Obras</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#curiosidades" class="nav-link">Curiosidades</a></li>
+        <li><a href="#fuentes" class="nav-link">Referencias</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION CON CONTENIDO PRINCIPAL -->
+  <header class="hero" id="inicio" role="banner">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Andy Warhol</h1>
+        <div class="accent-line"></div>
+        <p class="hero-subtitle">El ícono del Pop Art</p>
+        <p class="hero-description">Artista, pintor y productor | 1928 – 1987</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main role="main">
+
+    <!-- SECCIÓN 1: BIOGRAFÍA -->
+    <section id="biografia" class="content-section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Biografía</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="section-content">
+          <p>
+            Andy Warhol (1928–1987) fue un artista estadounidense y una de las figuras más importantes del Pop Art, un movimiento artístico que se inspiró en la cultura popular, la publicidad y los medios de comunicación. Nació en Pittsburgh, Estados Unidos, y desde joven mostró interés por el dibujo y el diseño.
+          </p>
+          <p>
+            Warhol se hizo famoso por transformar objetos cotidianos y celebridades en obras de arte. Utilizó imágenes muy conocidas, como latas de sopa, botellas de refresco y retratos de estrellas del cine y la música, entre ellas Marilyn Monroe y Elvis Presley. Para crear sus obras empleó técnicas como la serigrafía, que le permitían reproducir una misma imagen muchas veces, cuestionando la idea de originalidad en el arte.
+          </p>
+          <p>
+            Además de pintor, Warhol fue cineasta, editor y productor musical. Fundó un estudio llamado The Factory, donde trabajó con otros artistas y figuras influyentes de su época. Su obra cambió la forma de entender el arte moderno y sigue siendo una gran referencia en la cultura contemporánea.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBRAS PRINCIPALES -->
+    <section id="obras">
+      <h2>Obras principales</h2>
+      <ul>
+        <li>Marilyn Diptych (1962)</li>
+        <li>Campbell’s Soup Cans (1962)</li>
+        <li>Eight Elvises (1963)</li>
+        <li>Banana (1967)</li>
+      </ul>Campbell’s Soup Cans (1962)
+Serie de pinturas que representa latas de sopa Campbell. Con esta obra, Warhol convirtió un producto cotidiano en arte y cuestionó la diferencia entre el consumo comercial y el arte tradicional.
+
+Marilyn Diptych (1962)
+Obra formada por múltiples retratos de Marilyn Monroe repetidos y coloreados. Refleja la fama, la repetición de imágenes en los medios y la fragilidad detrás de las celebridades.
+
+Eight Elvises (1963)
+Muestra a Elvis Presley repetido varias veces en una misma imagen. Representa cómo los ídolos populares se reproducen y consumen como productos de masas.
+
+Brillo Boxes (1964)
+Esculturas que imitan cajas de detergente Brillo. Con ellas, Warhol desafió la idea de qué puede considerarse una obra de arte al presentar objetos industriales en museos.
+
+Banana (1967)
+Imagen creada para la portada del álbum The Velvet Underground & Nico. Se convirtió en un icono cultural y muestra la conexión de Warhol entre arte, música y diseño gráfico.
+    </section>
+
+    <!-- SECCIÓN 3: GALERÍA MUSEO DIGITAL -->
+    <section id="galeria" class="content-section gallery-section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Galería</h2>
+          <p class="gallery-subtitle">Presenta un recorrido por las obras maestras del Pop Art</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">Todas las obras</button>
+          <button class="filter-btn" data-filter="nature">Fauna</button>
+          <button class="filter-btn" data-filter="products">Productos</button>
+          <button class="filter-btn" data-filter="icons">Iconografía</button>
+        </div>
+
+       
+
+          <!-- Grid de obras maestras -->
+          <div class="gallery-grid">
+            <figure class="gallery-item" data-filter="nature">
+              <div class="gallery-image-wrapper">
+                <img src="img/vaca.jpg" alt="Cow Wallpaper - Obra de Warhol">
+                <div class="gallery-overlay">
+                  <span class="gallery-label">Vida Animal</span>
+                </div>
+              </div>
+              <figcaption>
+                <h4>Cow Wallpaper</h4>
+                <p class="artist-name">Andy Warhol</p>
+                <p class="year">1971</p>
+                <p class="description">Patrón repetitivo de vacas que cuestiona la frontera entre arte y decoración, entre lo único y lo reproducible en la era industrial.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" data-filter="icons">
+              <div class="gallery-image-wrapper">
+                <img src="img/banana.jpg" alt="Banana - The Velvet Underground & Nico">
+                <div class="gallery-overlay">
+                  <span class="gallery-label">Música & Diseño</span>
+                </div>
+              </div>
+              <figcaption>
+                <h4>Banana</h4>
+                <p class="artist-name">Andy Warhol</p>
+                <p class="year">1967</p>
+                <p class="description">Portada icónica del álbum de The Velvet Underground. Fusión perfecta entre arte visual, música y diseño gráfico que definió una era.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" data-filter="products">
+              <div class="gallery-image-wrapper">
+                <img src="img/lata.webp" alt="Campbell's Soup Cans - Obra de Warhol">
+                <div class="gallery-overlay">
+                  <span class="gallery-label">Consumo Masivo</span>
+                </div>
+              </div>
+              <figcaption>
+                <h4>Campbell's Soup Cans</h4>
+                <p class="artist-name">Andy Warhol</p>
+                <p class="year">1962</p>
+                <p class="description">Monumento al consumismo estadounidense. Transformó una lata de sopa en un icono artístico, desafiando las nociones tradicionales del arte.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" data-filter="icons">
+              <div class="gallery-image-wrapper">
+                <img src="img/marilyn.jpg" alt="Marilyn Monroe - Retrato de Warhol">
+                <div class="gallery-overlay">
+                  <span class="gallery-label">Celebridades</span>
+                </div>
+              </div>
+              <figcaption>
+                <h4>Marilyn Diptych</h4>
+                <p class="artist-name">Andy Warhol</p>
+                <p class="year">1962</p>
+                <p class="description">Reflexión sobre la fama, la mortalidad y la reproducción de imágenes en la era moderna. Creada poco después de la muerte de Monroe.</p>
+              </figcaption>
+      
+
+        <div class="gallery-info">
+          <div class="info-content">
+            <h3>Exploración Interactiva</h3>
+            <p class="info-text">Esta colección digital representa el espíritu revolucionario de Andy Warhol: la convergencia del arte, la cultura popular y la producción en serie. Cada obra cuestiona nuestras percepciones sobre la originalidad, el consumo y la identidad en la sociedad moderna.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: CURIOSIDADES -->
+    <section id="curiosidades" class="content-section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Curiosidades</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <ul class="curiosidades-list">
+          <li>
+            <span class="curiosidad-numero">1</span>
+            <p>Decía que quería ser una máquina y que todas sus obras debían ser iguales y repetidas.</p>
+          </li>
+          <li>
+            <span class="curiosidad-numero">2</span>
+            <p>Fundó el estudio The Factory en Nueva York, un espacio legendario que se convirtió en referencia cultural.</p>
+          </li>
+          <li>
+            <span class="curiosidad-numero">3</span>
+            <p>También fue cineasta y editor de revistas. Produjo películas experimentales que revolucionaron el cine.</p>
+          </li>
+          <li>
+            <span class="curiosidad-numero">4</span>
+            <p>Documentaba obsesivamente su vida con grabadora de voz, creando un archivo personal invaluable.</p>
+          </li>
+          <li>
+            <span class="curiosidad-numero">5</span>
+            <p>Fue un coleccionista voraz de objetos variados, desde arte hasta botellas de refresco.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5: REFERENCIAS -->
+    <section id="fuentes" class="content-section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Referencias</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="referencias-grid">
+          <article class="referencia-item">
+            <h3>MoMA</h3>
+            <p>Museum of Modern Art - Nueva York. La institución de arte moderno más importante del mundo.</p>
+            <a href="https://www.moma.org" target="_blank" class="referencia-link">Visitar →</a>
+          </article>
+          <article class="referencia-item">
+            <h3>Tate Modern</h3>
+            <p>Galería Tate - Londres. Referencia internacional en arte moderno y contemporáneo.</p>
+            <a href="https://www.tate.org.uk" target="_blank" class="referencia-link">Visitar →</a>
+          </article>
+          <article class="referencia-item">
+            <h3>Wikipedia</h3>
+            <p>Artículo detallado sobre Andy Warhol con información completa y referencias académicas.</p>
+            <a href="https://es.wikipedia.org/wiki/Andy_Warhol" target="_blank" class="referencia-link">Leer →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <p class="footer-copyright">&copy; 2026 Andy Warhol Collection</p>
+      <p class="footer-credit">Todos los derechos reservados | Archivo de Pop Art</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
